@@ -1,0 +1,29 @@
+body{
+    background-image: url(./background.jpg);
+    text-align: center;
+}
+
+h3
+{
+  font-size: 25px;
+}
+.btn-success{
+  margin-bottom: 40px;
+}
+.btn-success:hover
+{
+  background-color: rgb(106, 218, 151);
+  border: none;
+}
+canvas {
+    animation-name: canva;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canva { 
+
+from {box-shadow: 1px 1px 20px rgb(42, 169, 189);}
+to {box-shadow: 1px 1px 20px rgb(0, 255, 89);}
+
+}
