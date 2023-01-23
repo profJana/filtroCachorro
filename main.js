@@ -6,7 +6,7 @@ narizX = 0;
 narizY = 0;
 
 function preload() {
-    filtroCachorro = loadImage('https://i.postimg.cc/rpjXqVWF/filtro-cachorro.png');
+    filtroCachorro = loadImage('https://i.postimg.cc/pdZHQDQK/Design-sem-nome-70.png');
 }
 
 function setup() {
@@ -40,7 +40,7 @@ function draw() {
   //fill(255,0,0);
   //stroke(255,0,0);
   //circle(noseX, noseY,25);
-  image(filtroCachorro,narizX-90, narizY-150,180,180);
+  image(filtroCachorro,narizX-75, narizY-80,150,150);
 }
 
 function takeSnapshot(){    
